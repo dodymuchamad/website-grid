@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WebGrid - Overlord</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,400;1,200&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+
+        <header class="header">
+            <div class="hero">
+                <h2 class="heading">Overlord</h2>
+                <p class="sub-heading">Picture & Wallpaper</p>
+            </div>
+            <div class="features feature-1">
+                <h4 class="title">Ainz Own</h4>
+                <p class="item">Picture</p>
+            </div>
+            <div class="features feature-2">
+                <h4 class="title">Albedo</h4>
+                <p class="item">Picture</p>
+            </div>
+        </header>
+
+        <nav class="menu">
+            <div class="menu-toggle">
+                <input type="checkbox">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="brand">
+                <h1>O V E R L O R D</h1>
+            </div>
+            <ul class="menu-list">
+                <li><a href="">Home</a></li>
+                <li><a href="">Product</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="">Gallery</a></li>
+            </ul>
+        </nav>
+
+        <section class="services">
+            <div class="service">
+                <div class="icon">🌟</div>
+                <h3>Overall</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iste error corrupti dolorem iusto temporibus sunt?</p>
+            </div>
+            <div class="service">
+                <div class="icon">🌙</div>
+                <h3>Spesifik</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iste error corrupti dolorem iusto temporibus sunt?</p>
+            </div>
+            <div class="service">
+                <div class="icon">☀️</div>
+                <h3>View</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iste error corrupti dolorem iusto temporibus sunt?</p>
+            </div>
+            <div class="service">
+                <div class="icon">☁️</div>
+                <h3>Maintain</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iste error corrupti dolorem iusto temporibus sunt?</p>
+            </div>
+        </section>
+
+        <section class="gallery">
+            <h2>Gallery</h2>
+            <img src="overlord/1.jpg" alt="">
+            <img src="overlord/2.png" alt="">
+            <img src="overlord/3.jpg" alt="">
+            <img src="overlord/4.jpg" alt="">
+            <img src="overlord/5.png" alt="">
+            <img src="overlord/6.jpg" alt="">
+            <img src="overlord/7.jpg" alt="">
+            <img src="overlord/8.png" alt="">
+            <img src="overlord/9.png" alt="">
+            <img src="overlord/10.jpg" alt="">
+        </section>
+    </div>
+
+    <script>
+        const menuToggle = document.querySelector('.menu-toggle');
+        const nav = document.querySelector('nav ul');
+
+        menuToggle.addEventListener('click', function(){
+            nav.classList.toggle('slide');
+        });
+    </script>
+</body>
+</html>
